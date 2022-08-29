@@ -14,8 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
-
 Route::get('/', [TaskListController::class, 'index'])->name('index');
 Route::get('/create', [TaskListController::class, 'create'])->name('list.create');
 Route::get('/list-update/{id}', [TaskListController::class, 'listUpdate'])->name('list.update');
