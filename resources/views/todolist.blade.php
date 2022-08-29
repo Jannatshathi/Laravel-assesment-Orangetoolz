@@ -21,7 +21,7 @@
 <body>
     <div class="row">
         <div class="col-md-12 col-lg-12 ">
-            <div class="container m-l-3 m-r-3 my-5">
+            <div class="container m-l-3 m-r-3 ">
                 <div class="row">
                     <div class="col-md-12 col-lg-12 my-2">
                         <div class="row">
@@ -29,8 +29,8 @@
                             <div class="col-md-8 col-lg-8 d-flex justify-content-center my-5">
                                 <form method="get">
                                     <input style="width: 270px;" type="text" name="task" id="task"
-                                        placeholder="Write your Task ...">
-                                    <button type="button" class=" btn-md m-l-3 submit bg-white" style="-webkit-text-fill-color: red">Add</button>
+                                        placeholder="Write your task ...">
+                                    <button type="button" class=" btn-md m-l-3 submit bg-white" style="-webkit-text-fill-color: red"><b> Add </b></button>
                                 </form>
                             </div>
                             <div class="col-md-2 col-lg-2 "></div>
@@ -53,7 +53,7 @@
                                             <option value="done">Done</option>
                                         </select>
                                     </div>
-                                    <button type="submit" class="btn btn-sm">Move</button>
+                                    <button type="submit" class="btn btn-sm">Ok</button>
                                 </form>
                                 @endforeach
                             </div>
@@ -74,7 +74,7 @@
                                             <option value="done">Done</option>
                                         </select>
                                     </div>
-                                    <button type="submit" class="btn btn-sm">Move</button>
+                                    <button type="submit" class="btn btn-sm">Ok</button>
                                 </form>
                                 @endforeach
                             </div>
@@ -95,7 +95,7 @@
                                             <option value="waiting">To Do</option>
                                         </select>
                                     </div>
-                                    <button type="submit" class="btn btn-sm">Move</button>
+                                    <button type="submit" class="btn btn-sm">Ok</button>
                                 </form>
                                 @endforeach
                             </div>
@@ -132,7 +132,7 @@
                     MyItem +=
                         '<select style="width:50px;" name="process" class="form-select" aria-label=""><option value="inprogress">In progress</option><option value="waiting">Todo</option>';
                     MyItem +=
-                        ' </select></div><button type="submit" class="btn btn-sm">Move</button></form>';
+                        ' </select></div><button type="submit" class="btn btn-sm">Ok</button></form>';
                     $('#MyItems-list').append(MyItem);
 
                     alert("Task Added to list.");
